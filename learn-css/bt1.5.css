@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+.wq {
+  color: white;
+  background-color: rgb(63, 63, 129);
+  margin-top: 20px;
+  font-size: 25px;
+}
+div {
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(229, 229, 123);
+}
+.w.q {
+  font-size: 30px;
+}

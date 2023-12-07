@@ -1,0 +1,48 @@
+h1 {
+  display: flex;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-right: 20px;
+}
+.q {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+.field {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+}
+.field-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  margin-bottom: 6px;
+}
+input {
+  height: 20px;
+  margin-top: 5px;
+}
+button {
+  background-color: black;
+  color: white;
+  display: flex;
+  margin-top: 5px;
+}
+h2 {
+  font-size: 30px;
+}

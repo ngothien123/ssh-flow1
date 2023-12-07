@@ -1,0 +1,13 @@
+.q {
+  text-align: center;
+}
+.w {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+span {
+  color: orangered;
+  font-size: 20px;
+}
