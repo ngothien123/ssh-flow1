@@ -1,0 +1,151 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.menu-name {
+  color: white;
+  font-size: 38px;
+  text-decoration: none;
+  display: flex;
+}
+.icon {
+  color: white;
+  font-size: 38px;
+}
+.container {
+  position: relative;
+}
+.header-container {
+  width: 900px;
+  position: absolute;
+  display: flex;
+  left: 30%;
+  top: 3%;
+  gap: 67px;
+  /* margin-left: -135px; */
+  justify-content: center;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+.menu {
+  color: white;
+
+  text-decoration: none;
+  display: flex;
+  gap: 23px;
+}
+
+.rikei {
+  font-family: "Rubik", sans-serif;
+  font-family: "Whisper", cursive;
+  position: absolute;
+  left: 1%;
+  top: 2%;
+}
+h2 {
+  font-size: 45px;
+  color: white;
+}
+button {
+  background-color: rgb(207, 207, 46);
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 38px;
+  font-size: 22px;
+}
+.main-name {
+  position: absolute;
+  left: 13%;
+  top: 33%;
+}
+h1 {
+  font-size: 66px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-family: "Whisper", cursive;
+}
+p {
+  font-size: 20px;
+  color: white;
+}
+.text {
+  position: absolute;
+  left: 12%;
+  top: 47%;
+}
+.online {
+  position: absolute;
+  left: 12%;
+  top: 65%;
+}
+.footer {
+  height: 800px;
+  background-color: rgb(71, 55, 55);
+}
+.img2 {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(71, 55, 55);
+  margin-left: 358px;
+  padding-top: 84px;
+  margin-top: 137px;
+}
+.img3 {
+}
+.footer-name {
+  width: 600px;
+  padding-top: 294px;
+  display: inline-block;
+  position: relative;
+  left: 29%;
+  transform: translateX(-50%);
+}
+.footer {
+  display: flex;
+}
+.we {
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-family: "Whisper", cursive;
+}
+.as {
+  margin-bottom: 50px;
+}
